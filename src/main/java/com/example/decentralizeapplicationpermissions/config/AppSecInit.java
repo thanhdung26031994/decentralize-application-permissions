@@ -1,2 +1,7 @@
-package com.example.decentralizeapplicationpermissions.config;public class AppSecInit {
+package com.example.decentralizeapplicationpermissions.config;
+
+
+import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
+
+public class AppSecInit extends AbstractSecurityWebApplicationInitializer {
 }
